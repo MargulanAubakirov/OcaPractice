@@ -16,10 +16,19 @@ public class dowhileloopDemo {
 //        } while (x > 10);
 //        System.out.println("Summation: " + sum);
 
+
+//do-while
         int num=10;
         do {
             num++;
         } while (++num > 20);
         System.out.println (num);
+
+        //while
+        int num2=10;
+        while (++num2 > 20) {
+            num2++;
+        }
+        System.out.println(num2);
     }
 }
